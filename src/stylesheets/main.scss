@@ -94,6 +94,7 @@ body {
         margin-right: 0;
     }
 
+    
     .card {        
         background-color: $color-card-background;
         border-radius: $radius-sm;
@@ -104,7 +105,12 @@ body {
             border-top-left-radius: $radius-sm;
             border-top-right-radius: $radius-sm;
             margin-bottom: 1rem;
+            filter: brightness(-50%);
         }    
+
+        img {
+            filter: brightness(-50%);
+        }
     
         .card-text {
             padding-inline: 2rem;
